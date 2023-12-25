@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My first webpage</title>
+    <style type="text/css">
+        /*<!-- 1:28:01 -->*/
+
+        body {
+            background-image: url('bg.jpg');
+            background-repeat: repeat;
+            /*<!-- 1:26:02 -->*/
+        }
+
+        #nav {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        #nav .logo {
+            /*<!-- 1:49:02 -->*/
+            float: left;
+            width: 300px;
+        }
+
+
+
+        #nav .menu {
+            float: right;
+            color: white;
+            font-size: 1.3em;
+        }
+
+        #nav .menu ul li {
+            display: inline;
+            margin: 10px;
+
+        }
+
+        #nav .menu ::after {
+            content: " | ";
+            margin-left: 5px;
+
+        }
+
+
+        #tagline {
+            background-color: white;
+
+        }
+
+        #tagline img {
+
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            /*<!-- 1:26:02 -->*/
+
+        }
+
+        #content-area {
+            background-color: white;
+            line-height: 2;
+
+        }
+
+        #content {
+            margin-left: 20px;
+            width: 480px;
+            float: left;
+
+        }
+
+        #content h2 {
+            font-size: 1.8em;
+
+        }
+
+
+
+        #siderbar {
+            margin-right: 20px;
+            width: 360px;
+            float: right;
+
+        }
+
+        #siderbar h3 {
+            background-image: url('h3_bg.jpg');
+            background-size: 360px;
+            padding-left: 10px;
+            /*<!-- 1:26:02 -->*/
+            color: white;
+            font-size: 1.7em;
+
+        }
+
+        #footer {
+
+            text-align: center;
+        }
+
+        #footer ::after {
+            content: " | ";
+            margin-left: 5px;
+
+        }
+
+        #footer ul li {
+            display: inline;
+            margin: 10px;
+        }
+
+        #footer ul li a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" style=" width: 900px; margin: auto;">
+        <div id="nav">
+
+            <div class="logo">
+                <img src="logo.gif" alt="Logo Image">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+        <div id="tagline">
+
+            <img src="header.jpg" alt="Header Image">
+
+        </div>
+        <div id="content-area">
+            <div id="content">
+                <h2>Header Text</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore maxime enim laborum eveniet,
+                    autem
+                    reprehenderit magnam tenetur nam error consectetur a voluptate blanditiis, nesciunt, libero
+                    praesentium
+                    vero <br>
+
+                    nisi dignissimos expedita?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, sed velit architecto aliquid quas
+                    ullam
+                    voluptatum? Ipsa, nulla iusto! Laborum nesciunt numquam atque soluta, corrupti ducimus harum as<br>
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur deleniti ipsum nulla
+                    repudiandae
+                    cupiditate velit id quos exercitationem! Placeat perspiciatis accusantium aperiam? Fugit cupiditate
+                    quam
+                    accusamus <br>
+
+
+                </p>
+            </div>
+            <div id="siderbar">
+                <h3>Services</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non sint earum dolorem blanditiis laborum
+                    ut
+                </p>
+                <h3>Contact Us</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum eligendi error fugiat numquam modi
+                    veniam
+                    aut, voluptas eaque nulla debitis magnam
+                </p>
+            </div>
+            <div style="clear: both"></div>
+        </div><!-- end of the content-area -->
+        <div id="footer">
+            <ul>
+                <li><a href="https://www.douban.com/">YourWebsite.com</a></li>
+                <li>Theme design by VIM</li>
+                <li>OpenGraphicDesign.com</li>
+                <li>Legal</li>
+            </ul>
+
+        </div>
+
+    </div> <!-- end of the container -->
+
+</body>
